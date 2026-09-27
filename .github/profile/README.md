@@ -8,7 +8,7 @@ Back up MySQL, PostgreSQL and remote files over SSH. Choose your own storage, se
 
 ## Get started
 
-- [Project homepage](https://baktime.github.io/baktime/)
+- [Project homepage](https://baktime.github.io/)
 - [Use the GitHub template](https://github.com/baktime/baktime/generate)
 - [Setup guide](https://github.com/baktime/baktime/blob/main/docs/getting-started.md)
 - [Architecture and design](https://github.com/baktime/baktime/blob/main/docs/architecture.md)
