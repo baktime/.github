@@ -1,16 +1,15 @@
-# baktime
+![baktime — backups that keep their time](https://raw.githubusercontent.com/baktime/baktime/main/assets/baktime-banner.png)
 
-### Backups that keep their time.
+> **Scheduled, encrypted, deduplicated backups of your servers, databases and files — run by GitHub Actions, with no backup server to maintain.**
 
-baktime is an open-source project for dependable, scheduled backups of databases and files. It combines GitHub Actions, [restic](https://restic.net/) and a small Cloudflare Worker so you can automate backups without maintaining a dedicated backup server.
+baktime is a GitHub template repository. Create your own **private** copy, add the databases and files you want to protect, and let GitHub Actions run backups on your schedule. Backups are encrypted and deduplicated with [restic](https://restic.net/); you choose the storage.
 
-Back up MySQL, PostgreSQL and remote files over SSH. Choose your own storage, set schedules and retention, review run history, receive notifications, and restore snapshots when needed. Data is encrypted on the client before it reaches storage.
+- **Back up files** on Linux hosts over SSH, plus **MySQL and PostgreSQL** databases.
+- Set schedules and retention policies for each target.
+- Review run history, receive notifications, and restore snapshots when needed.
 
 ## Get started
 
-- [Project homepage](https://baktime.github.io/)
-- [Use the GitHub template](https://github.com/baktime/baktime/generate)
-- [Setup guide](https://github.com/baktime/baktime/blob/main/docs/getting-started.md)
-- [Architecture and design](https://github.com/baktime/baktime/blob/main/docs/architecture.md)
+Explore the [project homepage](https://baktime.github.io/) or [create your own copy](https://github.com/baktime/baktime/generate). The [setup guide](https://github.com/baktime/baktime/blob/main/docs/getting-started.md) walks through storage, secrets, and your first backup.
 
-Made with care as an open-source project. [Say thanks on Suppi](https://suppi.pl/mleczakm) if baktime is useful to you.
+If the project is useful, [say thanks on Suppi](https://suppi.pl/mleczakm).
