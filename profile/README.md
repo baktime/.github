@@ -1,15 +1,11 @@
-![baktime — backups that keep their time](https://raw.githubusercontent.com/baktime/baktime/main/assets/baktime-banner.png)
+[![baktime · GitHub Actions × restic](https://raw.githubusercontent.com/baktime/baktime/main/assets/baktime-banner.png)](https://baktime.github.io/)
 
-> **Scheduled, encrypted, deduplicated backups of your servers, databases and files — run by GitHub Actions, with no backup server to maintain.**
+# Simple backups, run by GitHub Actions
 
-baktime is a GitHub template repository. Create your own **private** copy, add the databases and files you want to protect, and let GitHub Actions run backups on your schedule. Backups are encrypted and deduplicated with [restic](https://restic.net/); you choose the storage.
+Back up PostgreSQL, MySQL and Linux files on a schedule you choose. Create a private repository from the baktime template, connect your storage, then run your first backup. GitHub Actions handles the jobs and restic encrypts each snapshot before upload. Later backups transfer only new blocks.
 
-- **Back up files** on Linux hosts over SSH, plus **MySQL and PostgreSQL** databases.
-- Set schedules and retention policies for each target.
-- Review run history, receive notifications, and restore snapshots when needed.
+[Create your repository](https://github.com/baktime/baktime/generate) · [English setup guide](https://baktime.github.io/?lang=en#start) · [Instrukcja po polsku](https://baktime.github.io/pl/#start)
 
-## Get started
+The template is free. [Check the running costs](https://baktime.github.io/#cost) for Actions, Cloudflare and storage. Get backup reports in Discord or enable GitHub’s email notifications for workflows you trigger.
 
-Explore the [project homepage](https://baktime.github.io/) or [create your own copy](https://github.com/baktime/baktime/generate). The [setup guide](https://github.com/baktime/baktime/blob/main/docs/getting-started.md) walks through storage, secrets, and your first backup.
-
-If the project is useful, [say thanks on Suppi](https://suppi.pl/mleczakm).
+[Browse the template](https://github.com/baktime/baktime) · [Support the project on Suppi](https://suppi.pl/mleczakm)
