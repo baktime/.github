@@ -8,4 +8,4 @@ Back up PostgreSQL, MySQL and Linux files on a schedule you choose. Create a pri
 
 The template is free. [Check the running costs](https://baktime.github.io/#cost) for Actions, Cloudflare and storage. Get backup reports in Discord or enable GitHub’s email notifications for workflows you trigger.
 
-[Browse the template](https://github.com/baktime/baktime) · [Support the project on Suppi](https://suppi.pl/mleczakm)
+[Browse the template](https://github.com/baktime/baktime) · [Say thanks on Suppi](https://suppi.pl/mleczakm)
